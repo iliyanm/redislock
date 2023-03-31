@@ -3,14 +3,14 @@ package redislock_test
 import (
 	"context"
 	"errors"
+	"github.com/iliyanm/go-redis/v9"
 	"math/rand"
 	"sync"
 	"sync/atomic"
 	"testing"
 	"time"
 
-	. "github.com/bsm/redislock"
-	"github.com/redis/go-redis/v9"
+	. "github.com/iliyanm/redislock"
 )
 
 const lockKey = "__bsm_redislock_unit_test__"

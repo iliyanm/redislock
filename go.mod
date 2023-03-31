@@ -1,8 +1,8 @@
-module github.com/bsm/redislock
+module github.com/iliyanm/redislock
 
 go 1.17
 
-require github.com/redis/go-redis/v9 v9.0.2
+require github.com/iliyanm/go-redis/v9 v9.0.6
 
 require (
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect

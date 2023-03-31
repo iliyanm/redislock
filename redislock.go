@@ -5,13 +5,12 @@ import (
 	"crypto/rand"
 	"encoding/base64"
 	"errors"
+	"github.com/iliyanm/go-redis/v9"
 	"io"
 	"strconv"
 	"sync"
 	"sync/atomic"
 	"time"
-
-	"github.com/redis/go-redis/v9"
 )
 
 var (
